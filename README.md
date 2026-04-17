@@ -1,10 +1,11 @@
 # Audio Signal Processing & Feature Engineering Pipeline for Snoring Detection
 
-본 리포지토리는 코골이 소리 감지 프로젝트에서 **데이터 엔지니어링 및 특징 추출(Feature Engineering) 파트**를 전담하여 구현한 결과물입니다. 원시 오디오 데이터를 딥러닝/머신러닝 모델이 학습 가능한 고차원 특징 벡터로 변환하는 전 과정을 최적화된 파이프라인으로 설계하였습니다.
+본 리포지토리는 코골이 소리 감지 프로젝트에서 **데이터 엔지니어링 및 특징 추출(Feature Engineering) 파트**를 전담하여 구현한 결과물입니다. 
+원시 오디오 데이터를 딥러닝/머신러닝 모델이 학습 가능한 고차원 특징 벡터로 변환하는 전 과정을 최적화된 파이프라인으로 설계하였습니다.
 
 ## 🚀 핵심 구현 요약
- - 데이터 증강 및 정제: 1초 단위 정밀 슬라이싱($Slicing$)을 통해 학습 데이터셋을 약 5배 증강(9,800개 샘플 확보).특징 추출 최적화: $MFCC$ 및
- - $Delta/Delta$-$Delta$ 계수를 포함한 39차원 특징 벡터 추출 파이프라인 설계.
+ - 데이터 증강 및 정제: 1초 단위 정밀 슬라이싱($Slicing$)을 통해 학습 데이터셋을 약 5배 증강(9,800개 샘플 확보).
+ - 특징 추출 최적화: $MFCC$ 및 $Delta/Delta$-$Delta$ 계수를 포함한 39차원 특징 벡터 추출 파이프라인 설계.
  - 모델 성능 기여: 정밀 전처리를 통해 최종 분류 모델의 Accuracy 95.6%, F1-Score 90.6% 달성 견인.
 ---
 
@@ -64,7 +65,6 @@ Total: 12,858개
 <img width="600" height="994" alt="image" src="https://github.com/user-attachments/assets/6cf8ec67-7cb6-436d-a7ed-46cd8f6afd01" />
 <img width="600" height="1178" alt="image" src="https://github.com/user-attachments/assets/aa02a9a6-29cb-422f-9180-e1f772c24b8f" />
 <img width="600" height="1167" alt="image" src="https://github.com/user-attachments/assets/9ba1be88-ea13-41c1-b6d2-24a1d45f649a" />
-
 
 ---
 
