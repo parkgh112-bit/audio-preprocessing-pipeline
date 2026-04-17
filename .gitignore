@@ -1,0 +1,13 @@
+# Data files (Don't upload raw audio)
+data/
+Output/
+*.wav
+*.csv
+*.pptx
+허깅페이스*/
+ESC-50-master/
+
+# Python
+__pycache__/
+.venv/
+.DS_Store
